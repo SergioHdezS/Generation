@@ -1,0 +1,27 @@
+/*Por clase*/
+
+.carnes {
+    color: darkred;
+}
+
+.imagen {
+    text-align: center;
+}
+
+.formulario {
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+
+/* Por etiqueta*/
+
+label {
+    color: darkgreen;
+}
+
+body {
+    background-color: aquamarine;
+}

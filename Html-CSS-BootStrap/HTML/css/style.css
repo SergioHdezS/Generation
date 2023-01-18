@@ -1,0 +1,70 @@
+/* Esto es un comentario ctrl+k+c */
+
+
+/* selectores */
+
+
+/* selector de todo*/
+
+* {
+    background-color: lightgray;
+    color: black;
+    /* muy general por eso no se aplica*/
+}
+
+
+/* por etiqueta */
+
+h1 {
+    color: indigo;
+}
+
+h2 {
+    color: orange;
+}
+
+
+/* Por clase*/
+
+.subtitulo {
+    color: orangered;
+}
+
+.parrafo {
+    color: darkred;
+}
+
+
+/* por id*/
+
+#parrafodos {
+    color: forestgreen;
+    background-color: goldenrod;
+    border: 2px black solid;
+    border-radius: 10px;
+    /* ancho en pixeles, color y tipo de borde*/
+    width: 50%;
+    /* px, em y rem, tipos de medida*/
+    height: 50%;
+    text-align: center;
+    margin: 20px 50px 30px 40px;
+}
+
+#cuadradoext {
+    border: 3px dotted blue;
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+
+#cuadradoint {
+    border: 1px black dashed;
+    background-color: aqua;
+    height: 70px;
+    width: 70px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+    padding-bottom: 20px;
+}

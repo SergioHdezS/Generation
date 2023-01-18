@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <!--Contenedor de formuilario-->
+        <label for="name">Nombre</label>
+        <!--etiqueta de un input-->
+        <input type="text" name="etiquetaNombre" id="name" placeholder="Ingresa tu nombre">
+        <br>
+        <label for="number">Rut</label>
+        <input type="number" name="etiquetaRut" id="number" placeholder="Ingresa tu Rut">
+        <br>
+        <label for="email">Correo electronico</label>
+        <input type="email" name="etiquetaCorreo" id="email" placeholder="correo@correo.com">
+        <br>
+        <label for="pass">Contrasena</label>
+        <input type="password" name="contrasena" id="pass" required>
+        <br>
+        <label for="fechaNac">Fecha de nacimiento</label>
+        <input type="date" name="fechaNac" id="fechaNac">
+        <br>
+        <hr>
+        <label for="comentario">Comentario</label>
+        <br>
+        <textarea rows="10" cols="35" id="comentario" name="comentario" maxlength="140" placeholder="Ingresa tu comentario..."></textarea>
+        <br>
+        <hr>
+        <input type="checkbox" name="info" id="chbx-infocorreo">
+        <label for="chbx-infocorreo">Deseo recibir informacion por correo</label>
+        <br>
+        <input type="checkbox" name="info" id="chbx-infotelefono">
+        <label for="chbx-infotelefono">Deseo recibir informacion por telefono</label>
+        <br>
+        <hr>
+        <label for="genero">Indique como desea uqe hagamos referenica a usted</label>
+        <br>
+        <input type="radio" name="genero" id="femenino">Ella
+        <br>
+        <input type="radio" name="genero" id="masculino">El
+        <br>
+        <input type="radio" name="genero" id="noBinario">Elle
+        <br>
+        <label for="comoNosConociste">Como te enteraste de nosotros?</label>
+        <select name="comoNosConociste" id="comoNosConociste">
+            <option value="Instagram">Por Instagram</option>
+            <option value="Facebook">Por Facebook</option>
+            <option value="Tiktok">Por Tiktok</option>
+            <option value="Amigo/Conocido">Por un amigo/conocido</option>
+            <option value="Otro">Otro medio</option>
+        </select>
+        <br>
+        <input type="submit" value="Enviar" name="btn-enviar">
+
+    </form>
+</body>
+
+</html>
